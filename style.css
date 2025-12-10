@@ -259,10 +259,10 @@ body {
 }
 
 /* Description paragraph */
-.heo-section-description {
-  font-size: 17px;
+.hero-section-description {
+  font-size: 20px;
   margin-top: 1rem;
-  max-width: 70%;
+  max-width: 80%;
   font-weight: 500;
   color: #555;
 }
@@ -542,7 +542,7 @@ body {
     font-size: 38px;
   }
 
-  .heo-section-description {
+  .hero-section-description {
     max-width: 80%;
   }
 
@@ -641,7 +641,7 @@ body {
 
 .project-number {
   position: absolute;
-  font-size: 200px;
+  font-size: 100px;
   font-weight: 600;
   color: #ffffff;
   display: none;
@@ -695,18 +695,21 @@ body {
 }
 
 .project-heading {
-  font-size: 40px;
+ 
+  font-size: 30px;
   font-weight: bold;
   line-height: 1.2;
 }
 
 .project-subHeading {
+ 
   font-size: 16px;
   font-style: italic;
   width: 70%;
 }
 
 .project-card:hover .project-content {
+  padding-left: 60px;
   transform: scale(1.1);
 }
 
@@ -910,6 +913,7 @@ body {
   margin-top: 1rem;
   width: 85%;
   text-align: justify;
+  font-size: 20px;
 }
 .skill-subHeading p {
   margin: 15px 0;
